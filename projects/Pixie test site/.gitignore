@@ -1,0 +1,24 @@
+# Editor and tool settings
+.claude
+.vscode
+.idea
+.mcp.json
+*.swp
+*~
+
+# Shell and environment files (these sometimes appear in the project folder
+# as empty placeholders created by the sandbox; they are not part of the site)
+.bash_profile
+.bashrc
+.profile
+.zprofile
+.zshrc
+.gitconfig
+.gitmodules
+.ripgreprc
+.env
+.env.*
+
+# OS clutter
+.DS_Store
+Thumbs.db

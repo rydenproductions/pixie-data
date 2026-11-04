@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello from Pixie</title>
+  <style>
+    html, body {
+      min-height: 100%;
+      margin: 0;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2.5rem;
+      padding: 2rem 1rem;
+      box-sizing: border-box;
+      background: #121212;
+      color: #ff69b4; /* hot pink */
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    h1 {
+      font-size: clamp(2rem, 8vw, 5rem);
+      text-align: center;
+      margin: 0;
+    }
+    .about {
+      max-width: 32rem;
+      padding: 1.25rem 1.5rem;
+      border: 1px solid rgba(255, 105, 180, 0.35);
+      border-radius: 0.75rem;
+      text-align: center;
+    }
+    .about h2 {
+      font-size: 1.25rem;
+      margin: 0 0 0.5rem;
+    }
+    .about p {
+      margin: 0;
+      line-height: 1.6;
+      color: #ffc0dd; /* softer pink for body text */
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello from Pixie</h1>
+  <section class="about" id="about" aria-labelledby="about-heading">
+    <h2 id="about-heading">About</h2>
+    <p>
+      This is a tiny test site. Pixie, the owner's assistant, hands small
+      steps to Claude Code, and each step builds a little more of this page.
+    </p>
+  </section>
+</body>
+</html>
