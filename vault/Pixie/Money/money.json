@@ -1,0 +1,19 @@
+{
+  "setupDone": false,
+  "targets": {
+    "needs": 0.5,
+    "wants": 0.3,
+    "savings_debt": 0.2
+  },
+  "income": [],
+  "categories": [],
+  "bills": [],
+  "rules": {},
+  "months": {},
+  "plaid": {
+    "lastFetch": "2026-11-04T23:30:00.855Z",
+    "lastThrough": "2026-11-04",
+    "lastResult": "215 new"
+  },
+  "warned": {}
+}

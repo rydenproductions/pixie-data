@@ -3,7 +3,7 @@ title: Agent OS setup wiring on the Hobbitt box
 kind: project
 source: Claude Memory/Agent OS setup (Claude)/Agent os setup wiring.md
 created: 2026-11-03
-reviewed: false
+reviewed: true
 ---
 - Agent OS dashboard runs as systemd `agent-os.service` on port 3737 and reads keys from `~/.config/agent-os/environment`; restart it by killing the `next-server` process (systemd brings it back in about 10s).
 - Hermes 0.22.5 lives at `~/.hermes/hermes-agent`, with keys in `~/.hermes/.env` and model config in `~/.hermes/config.yaml`; the user has chosen free models only (no OpenRouter credit).
